@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-transform: capitalize;
+    text-align: center;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: blanchedalmond;
+    font-size: 3.5rem;
+    text-shadow: 10px 10px 10px black;
+}
+
+.counter {
+    font-size: 4.5rem;
+    padding: 2rem;
+    color: white;
+}
+
+.main1 {
+    font-size: 2rem;
+    background-color: lightgreen;
+    margin: 1rem;
+    outline: none;
+    border-radius: 10px;
+}
+
+.main2 {
+    font-size: 2rem;
+    background-color: pink;
+    margin: 1rem;
+    outline: none;
+    border-radius: 10px;
+}
+
+.reset {
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    outline: none ;
+}
+
+.reset:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.main1:hover {
+    transform: scale(1.1);
+    background-color: green;
+    cursor: pointer;
+}
+
+.main2:hover {
+    transform: scale(1.1);
+    background-color: red;
+    cursor: pointer;
+}
+
+/* for pc only */
+
+@media only screen and (min-width:600px) {
+    .counetr-box {
+        box-shadow: 3px 3px 10px 10px black;
+        flex: 0 0 70%;
+        /* border: 3px solid gray; */
+        padding: 1rem;
+        font-weight: bold;
+    }
+}
